@@ -1,0 +1,8 @@
+Tamos a fazer alterações na classe home adicionando um display como uma mensagem
+e um Required com mensagem de erro.
+
+Criação da classe PesquisaHabitaçãoViewModel - vai ser utilizada para o search
+
+Criação de uma partialView (quick search)
+
+adaptar a barra de search para o que queriamos. - Fazer/adaptar o post 

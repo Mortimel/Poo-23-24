@@ -1,0 +1,11 @@
+# ninja log v5
+4	1539	7233322970585323	CMakeFiles/TP.dir/main.cpp.obj	51e1b38aa19bba0a
+1721	2110	7233322976226644	TP.exe	6e59968b825f3c5f
+13	1433	7233322969523447	CMakeFiles/TP.dir/zona.cpp.obj	5521567f52c96a3b
+12	813	7230891805373385	CMakeFiles/TP.dir/Terminal.cpp.obj	f948efbbbf1e0e3c
+31	1721	7233322972403178	CMakeFiles/TP.dir/Interface.cpp.obj	b1939a50f1ffec7b
+20	1410	7233322969293453	CMakeFiles/TP.dir/habitacao.cpp.obj	e7d20b3941837f0b
+70	1357	7254296450682749	CMakeFiles/TP.dir/Lampada.cpp.obj	307f420f43d87f5b
+56	1359	7254296450682749	CMakeFiles/TP.dir/Aspersor.cpp.obj	24eea5bdfa020364
+63	1360	7254296450682749	CMakeFiles/TP.dir/Refrigerador.cpp.obj	32d4bc71f176035b
+59	1318	7254296927459940	CMakeFiles/TP.dir/Propriedade.cpp.obj	4a47e9e47b252888
