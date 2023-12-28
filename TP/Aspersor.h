@@ -9,8 +9,11 @@
 
 class Aspersor : public Aparelho{
 public:
-    //falta fazer cenas
-    Aspersor();
+    Aspersor(const string& tipo,int fumo, int humidade,int luminosidade, int ruido,int tempZona,int vibracao, int estaLigado) : Aparelho(tipo, fumo,humidade, luminosidade = 0, ruido = 0, tempZona = 0, vibracao, estaLigado)
+    {}
+
+    void estadoAparelho() override;
+    string getTipo() const override{ return "s"; }
 
 };
 

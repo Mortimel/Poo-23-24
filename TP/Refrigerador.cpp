@@ -3,3 +3,12 @@
 //
 
 #include "Refrigerador.h"
+
+void Refrigerador::estadoAparelho(){
+    if (getLigado() == 1){
+        setTempZona(getTempZona() + 1);
+        setRuido(getRuido() + 20);
+    }else{
+        setRuido(getRuido() - 20);
+    }
+}

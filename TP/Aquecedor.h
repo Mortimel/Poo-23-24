@@ -15,8 +15,6 @@ public:
     void estadoAparelho() override;
     string getTipo() const override{ return "a"; }
 
-
-
 };
 
 #endif //TP_AQUECEDOR_H

@@ -98,11 +98,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Users/BrunoOliveira/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Users/BrunoOliveira/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
@@ -138,19 +133,14 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Users/BrunoOliveira/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Users/BrunoOliveira/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/TP/cmake-build-debug",
-		"source" : "C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/TP"
+		"build" : "C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo 23/24/TP/cmake-build-debug",
+		"source" : "C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo 23/24/TP"
 	},
 	"version" : 
 	{

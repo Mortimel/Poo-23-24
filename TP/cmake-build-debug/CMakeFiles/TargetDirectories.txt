@@ -1,3 +1,3 @@
-C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/TP/cmake-build-debug/CMakeFiles/TP.dir
-C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/TP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/TP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo 23/24/TP/cmake-build-debug/CMakeFiles/TP.dir
+C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo 23/24/TP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo 23/24/TP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

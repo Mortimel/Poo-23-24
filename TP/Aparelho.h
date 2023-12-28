@@ -47,7 +47,6 @@ private:
     int vibracao;
     int luminosidade;
     int estaLigado;
-
 };
 
 

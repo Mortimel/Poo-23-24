@@ -3,3 +3,11 @@
 //
 
 #include "Lampada.h"
+
+void Lampada::estadoAparelho(){
+    if (getLigado() == 1){
+        setLuminosidade(getLuminosidade() + 900);
+    }else{
+        setLuminosidade(getLuminosidade() - 900);
+    }
+}

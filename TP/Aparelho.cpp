@@ -59,14 +59,6 @@ int Aparelho::getLigado() const {
 
 /*
 
-bool aspersor::ligado{
-    if (ligado = true)
-        if(humidade < humidade * 0.75){
-            humidade = humidade + (humidade * 0.5 );
-        }else
-            vibracao = vibracao + 100;
-    }
-};
 
 bool refrigerador::ligado{
     if (ligado = true){
