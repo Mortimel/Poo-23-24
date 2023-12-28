@@ -25,7 +25,7 @@ public:
     int getLuminosidade() const;
     int getLigado() const;
 
-    virtual void estadoAparelho() const;
+    virtual void estadoAparelho();
     virtual string getTipo() const = 0;
     //virtual bool isLigado();
 
