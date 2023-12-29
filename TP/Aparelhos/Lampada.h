@@ -5,7 +5,7 @@
 #ifndef TP_LAMPADA_H
 #define TP_LAMPADA_H
 
-#include "Aparelho.h"
+#include "../Aparelho.h"
 
 class Lampada : public Aparelho{
 public:

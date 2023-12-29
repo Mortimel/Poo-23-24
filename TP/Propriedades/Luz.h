@@ -5,7 +5,7 @@
 #ifndef TP_LUZ_H
 #define TP_LUZ_H
 
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Luz : public Propriedade{
 public:

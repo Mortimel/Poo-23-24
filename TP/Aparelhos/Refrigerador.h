@@ -5,7 +5,7 @@
 #ifndef TP_REFRIGERADOR_H
 #define TP_REFRIGERADOR_H
 
-#include "Aparelho.h"
+#include "../Aparelho.h"
 
 class Refrigerador : public Aparelho{
     /* r se estiver ligado

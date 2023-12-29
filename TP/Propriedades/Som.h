@@ -5,7 +5,7 @@
 #ifndef TP_SOM_H
 #define TP_SOM_H
 
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Som : public Propriedade{
 public:

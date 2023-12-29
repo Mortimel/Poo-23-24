@@ -4,7 +4,7 @@
 
 #ifndef TP_RADIACAO_H
 #define TP_RADIACAO_H
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Radiacao : public Propriedade{
 public:

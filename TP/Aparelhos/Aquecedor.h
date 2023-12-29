@@ -5,7 +5,7 @@
 #ifndef TP_AQUECEDOR_H
 #define TP_AQUECEDOR_H
 
-#include "Aparelho.h"
+#include "../Aparelho.h"
 
 class Aquecedor : public Aparelho{
 public:

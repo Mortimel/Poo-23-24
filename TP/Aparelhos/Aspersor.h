@@ -5,7 +5,7 @@
 #ifndef TP_ASPERSOR_H
 #define TP_ASPERSOR_H
 
-#include "Aparelho.h"
+#include "../Aparelho.h"
 
 class Aspersor : public Aparelho{
 public:

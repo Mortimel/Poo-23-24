@@ -4,7 +4,7 @@
 
 #ifndef TP_FUMO_H
 #define TP_FUMO_H
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Fumo : public Propriedade{
 public:

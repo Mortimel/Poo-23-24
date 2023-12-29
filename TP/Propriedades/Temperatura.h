@@ -5,7 +5,7 @@
 #ifndef TP_TEMPERATURA_H
 #define TP_TEMPERATURA_H
 
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Temperatura : public Propriedade{
 public:

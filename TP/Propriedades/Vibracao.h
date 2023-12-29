@@ -5,7 +5,7 @@
 #ifndef TP_VIBRACAO_H
 #define TP_VIBRACAO_H
 
-#include "Propriedade.h"
+#include "../Propriedade.h"
 
 class Vibracao : public Propriedade{
 public:
