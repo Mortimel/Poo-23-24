@@ -4,7 +4,7 @@
 
 #include "Luz.h"
 
-double Luz::valorMinimo(){
+void Luz::valorMinimo(){
     setValorMin(0);
 }
 

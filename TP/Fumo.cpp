@@ -4,10 +4,10 @@
 
 #include "Fumo.h"
 
-double Fumo::valorMinimo(){
+void Fumo::valorMinimo(){
     setValorMin(0);
 }
 
-double Fumo::valorMaximo() {
+void Fumo::valorMaximo() {
     setValorMax(100);
 }

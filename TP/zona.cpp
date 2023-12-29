@@ -7,6 +7,8 @@
 
 using namespace std;
 
+Zona::Zona(int id, int linha = 0, int coluna = 0) : id(id), linha(linha), coluna(coluna){}
+
 Zona::~Zona() {
     // Add any necessary cleanup code
 }

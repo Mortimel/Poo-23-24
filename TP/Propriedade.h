@@ -40,8 +40,8 @@ public:
     int getVibracao() const;
     int getLuminosidade() const;
 
-    virtual double valorMinimo();
-    virtual double valorMaximo();
+    virtual void valorMinimo();
+    virtual void valorMaximo();
 
 
     //setters

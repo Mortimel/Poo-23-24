@@ -4,6 +4,6 @@
 
 #include "Som.h"
 
-double Som::valorMinimo(){
+void Som::valorMinimo(){
     setValorMin(0);
 }

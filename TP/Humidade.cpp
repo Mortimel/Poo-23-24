@@ -4,10 +4,10 @@
 
 #include "Humidade.h"
 
-double Humidade::valorMinimo(){
+void Humidade::valorMinimo(){
     setValorMin(0);
 }
 
-double Humidade::valorMaximo() {
+void Humidade::valorMaximo() {
     setValorMax(100);
 }

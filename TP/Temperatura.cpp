@@ -4,6 +4,6 @@
 
 #include "Temperatura.h"
 
-double Temperatura::valorMinimo(){
+void Temperatura::valorMinimo(){
     setValorMin(-273);
 }

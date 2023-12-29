@@ -21,7 +21,7 @@ using namespace std;
 
 class Zona {
 public:
-    Zona(Window mapa, int id, int linha, int coluna, int linhas, int colunas);
+    Zona(int id, int linha, int coluna);
     ~Zona();
 
     void setId(int newId);

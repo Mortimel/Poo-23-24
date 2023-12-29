@@ -4,6 +4,6 @@
 
 #include "Vibracao.h"
 
-double Vibracao::valorMinimo(){
+void Vibracao::valorMinimo(){
     setValorMin(0);
 }
