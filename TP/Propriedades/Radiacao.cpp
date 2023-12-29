@@ -4,7 +4,5 @@
 
 #include "Radiacao.h"
 
-void Radiacao::valorMinimo(){
-    setValorMin(0);
-}
+
 

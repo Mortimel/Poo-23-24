@@ -4,6 +4,4 @@
 
 #include "Som.h"
 
-void Som::valorMinimo(){
-    setValorMin(0);
 }

@@ -6,7 +6,6 @@
 #include "Propriedade.h"
 
 
-
 Propriedade::Propriedade(const string& nome, const string& unidade, double minimo, double maximo)
         : nome(nome), valorMinimo(minimo), valorMaximo(maximo), valor(0.0) {}
 

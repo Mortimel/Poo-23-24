@@ -9,11 +9,8 @@
 
 class Som : public Propriedade{
 public:
-    Som(int temperatura, int ruido, int fumo, int humidade, int vibracao, int luminosidade, int luz) :
-            Propriedade(temperatura = 0, ruido = 0, fumo = 0, humidade = 0, vibracao = 0, luminosidade = 0, luz = 0){}
-
-    void valorMinimo() override;
-    //double valorMaximo() override;
+    Som(const string& nome, const string& unidade, double minimo, double maximo) :
+            Propriedade(nome, unidade, minimo , maximo ){}
 
 };
 

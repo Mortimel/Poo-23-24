@@ -4,6 +4,3 @@
 
 #include "Vibracao.h"
 
-void Vibracao::valorMinimo(){
-    setValorMin(0);
-}

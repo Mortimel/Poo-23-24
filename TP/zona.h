@@ -35,15 +35,17 @@ public:
     void adicionarSensor();
     void adicionarAparelho();
     void adicionarProcessador();
+    void adicionarPropriedade();
 
 private:
     int id;
-    int linha;
-    int coluna;
     int linhas;
     int colunas;
     WINDOW mapa;
-    std::vector<Zona*> zonas;
+    vector<Propriedade *> propriedades;
+    vector<Aparelho *> aparelhos;
+    vector<Sensor *> sensores;
+    vector<Processador *> processador;
 };
 
 #endif //TP_ZONA_H
