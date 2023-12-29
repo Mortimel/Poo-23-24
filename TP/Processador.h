@@ -21,7 +21,7 @@ public:
     Processador(const string& comando);
     ~Processador();
 
-    void adicionarRegra(const int id);
+    void adicionarRegra(const std::string& operador, double limite1, double limite2);
     void executar(const vector<double>& valoresSensores) const;
 };
 

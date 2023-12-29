@@ -13,15 +13,15 @@ Processador::~Processador() {
     }
 }
 
-void Processador::adicionarRegra(const int id){
-    regras.push_back(new Regras(id));
+void Processador::adicionarRegra(const std::string& operador, double limite1, double limite2){
+    regras.push_back(new Regras(operador, limite1, limite2));
 }
 
 void Processador::executar(const vector<double>& valoresSensores) const {
     bool todasAsRegrasVerdadeiras = true;
 
-    for (Regras *regra : regras) {
-        if (!regra->avaliar(valoresSensores[regra->obterId()], regra->obterOperadores(), 100, 100)) {
+    for (Regras* regra : regras) {
+        if (!regra->avaliar(valoresSensores[regra->obterId()], regra->obterOperadores(), regra->getValorMin(), regra->getValorMax() )) {
             todasAsRegrasVerdadeiras = false;
             break;
         }

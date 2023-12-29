@@ -28,10 +28,10 @@ private:
     double valorMin;
     double valorMax;
     string operador;
-    std::vector<std::string> regra = {"igual_a", "menor_que", "maior_que", "entre", "fora"};
+    vector<string> regra = {"igual_a", "menor_que", "maior_que", "entre", "fora"};
 
 public:
-    Regras(int id);
+    Regras(const std::string& operador, double limite1, double limite2);
 
     //getters
     int obterId() const;
@@ -43,8 +43,8 @@ public:
     void setValorMax(double newValorMax) { valorMax = newValorMax;}
 
 
-    bool avaliar(double valorSensor, const string& operador, double valorLimite1, double valorLimite2);
-    const vector<string>& obterOperadores() const;
+    bool avaliar(double valorSensor, vector<string> operador, double valorLimite1, double valorLimite2);
+    const vector<string> obterOperadores();
 };
 
 #endif //TP_REGRAS_H

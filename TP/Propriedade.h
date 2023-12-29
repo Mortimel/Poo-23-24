@@ -5,15 +5,39 @@
 #ifndef TP_PROPRIEDADE_H
 #define TP_PROPRIEDADE_H
 
-#include <string>
-
-
+#include <sstream>
 #include <vector>
 #include <string>
 #include <iostream>
 
 using namespace std;
 
+class Propriedade {
+private:
+    string nome;
+    string unidade;
+    double valor;
+    double valorMinimo;
+    double valorMaximo;
+
+public:
+    Propriedade(const string& nome, const string& unidade, double minimo, double maximo);
+    ~Propriedade();
+
+    //getters
+    const string& getNome() const;
+    double getValor() const;
+    double getValorMinimo() const;
+    double getValorMaximo() const;
+
+    //setters
+    void setValor(double novoValor);
+    bool validarValor(double novoValor) const;
+    void mostrarInformacoes() const;
+    virtual string getTipo() const = 0;
+};
+
+/*
 class Propriedade{
 private:
     int temperatura;
@@ -55,27 +79,7 @@ public:
     void setLuminosidade(int newLuminosidade) {luminosidade = newLuminosidade;}
 
 };
-/*
-class Propriedade {
-private:
-    string chave;
-    string unidade;
-    double valor;
-    double valorMinimo;
-    double valorMaximo;
-
-public:
-    Propriedade(const string& nome, const string& unidade, double minimo, double maximo);
-    ~Propriedade();
-
-    const string& obterChave() const;
-    double obterValor() const;
-    double obterValorMinimo() const;
-    double obterValorMaximo() const;
-
-    void definirValor(double novoValor);
-    bool validarValor(double novoValor) const;
-    void mostrarInformacoes() const;
-};
 */
+
+
 #endif //TP_PROPRIEDADE_H

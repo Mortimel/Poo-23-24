@@ -5,10 +5,10 @@
 
 #include "Regras.h"
 
-Regras::Regras(int id) : id(id){}
+Regras::Regras(const std::string& operador, double limite1, double limite2) : id(id){}
 
 
-bool Regras::avaliar(const double valorSensor, const string& operador, const double valorLimite1, const double valorLimite2){
+bool Regras::avaliar(const double valorSensor, vector<string> operador, const double valorLimite1, const double valorLimite2){
     if (operador == "igual_a") {
         resultado = (valorSensor == valorLimite1);
     } else if (operador == "menor_que") {
@@ -30,7 +30,7 @@ int Regras::obterId() const {
     return id;
 }
 
-const vector<string>& Regras::obterOperadores() const {
+const vector<string> Regras::obterOperadores(){
     return regra;
 }
 
