@@ -85,29 +85,29 @@ build CMakeFiles/TP.dir/Aparelho.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/Bruno
   OBJECT_DIR = CMakeFiles\TP.dir
   OBJECT_FILE_DIR = CMakeFiles\TP.dir
 
-build CMakeFiles/TP.dir/Aquecedor.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aquecedor.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Aquecedor.cpp.obj.d
+build CMakeFiles/TP.dir/Aparelhos/Aquecedor.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aparelhos/Aquecedor.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Aparelhos\Aquecedor.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Aparelhos
 
-build CMakeFiles/TP.dir/Aspersor.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aspersor.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Aspersor.cpp.obj.d
+build CMakeFiles/TP.dir/Aparelhos/Aspersor.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aparelhos/Aspersor.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Aparelhos\Aspersor.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Aparelhos
 
-build CMakeFiles/TP.dir/Refrigerador.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Refrigerador.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Refrigerador.cpp.obj.d
+build CMakeFiles/TP.dir/Aparelhos/Refrigerador.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aparelhos/Refrigerador.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Aparelhos\Refrigerador.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Aparelhos
 
-build CMakeFiles/TP.dir/Lampada.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Lampada.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Lampada.cpp.obj.d
+build CMakeFiles/TP.dir/Aparelhos/Lampada.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Aparelhos/Lampada.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Aparelhos\Lampada.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Aparelhos
 
 build CMakeFiles/TP.dir/Regras.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Regras.cpp || cmake_object_order_depends_target_TP
   DEP_FILE = CMakeFiles\TP.dir\Regras.cpp.obj.d
@@ -133,47 +133,47 @@ build CMakeFiles/TP.dir/Sensor.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOl
   OBJECT_DIR = CMakeFiles\TP.dir
   OBJECT_FILE_DIR = CMakeFiles\TP.dir
 
-build CMakeFiles/TP.dir/Temperatura.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Temperatura.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Temperatura.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Temperatura.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Temperatura.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Temperatura.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Fumo.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Fumo.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Fumo.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Fumo.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Fumo.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Fumo.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Vibracao.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Vibracao.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Vibracao.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Vibracao.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Vibracao.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Vibracao.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Humidade.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Humidade.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Humidade.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Humidade.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Humidade.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Humidade.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Radiacao.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Radiacao.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Radiacao.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Radiacao.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Radiacao.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Radiacao.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Luz.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Luz.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Luz.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Luz.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Luz.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Luz.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
-build CMakeFiles/TP.dir/Som.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Som.cpp || cmake_object_order_depends_target_TP
-  DEP_FILE = CMakeFiles\TP.dir\Som.cpp.obj.d
+build CMakeFiles/TP.dir/Propriedades/Som.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOliveira/Desktop/Faculdade/1Sem/POO/Poo$ 23/24/TP/Propriedades/Som.cpp || cmake_object_order_depends_target_TP
+  DEP_FILE = CMakeFiles\TP.dir\Propriedades\Som.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP.dir\Propriedades
 
 
 # =============================================================================
@@ -183,7 +183,7 @@ build CMakeFiles/TP.dir/Som.cpp.obj: CXX_COMPILER__TP_Debug C$:/Users/BrunoOlive
 #############################################
 # Link the executable TP.exe
 
-build TP.exe: CXX_EXECUTABLE_LINKER__TP_Debug CMakeFiles/TP.dir/main.cpp.obj CMakeFiles/TP.dir/Terminal.cpp.obj CMakeFiles/TP.dir/zona.cpp.obj CMakeFiles/TP.dir/Interface.cpp.obj CMakeFiles/TP.dir/habitacao.cpp.obj CMakeFiles/TP.dir/Aparelho.cpp.obj CMakeFiles/TP.dir/Aquecedor.cpp.obj CMakeFiles/TP.dir/Aspersor.cpp.obj CMakeFiles/TP.dir/Refrigerador.cpp.obj CMakeFiles/TP.dir/Lampada.cpp.obj CMakeFiles/TP.dir/Regras.cpp.obj CMakeFiles/TP.dir/Propriedade.cpp.obj CMakeFiles/TP.dir/Processador.cpp.obj CMakeFiles/TP.dir/Sensor.cpp.obj CMakeFiles/TP.dir/Temperatura.cpp.obj CMakeFiles/TP.dir/Fumo.cpp.obj CMakeFiles/TP.dir/Vibracao.cpp.obj CMakeFiles/TP.dir/Humidade.cpp.obj CMakeFiles/TP.dir/Radiacao.cpp.obj CMakeFiles/TP.dir/Luz.cpp.obj CMakeFiles/TP.dir/Som.cpp.obj | C$:/PDCurses-3.9/wincon/pdcurses.a
+build TP.exe: CXX_EXECUTABLE_LINKER__TP_Debug CMakeFiles/TP.dir/main.cpp.obj CMakeFiles/TP.dir/Terminal.cpp.obj CMakeFiles/TP.dir/zona.cpp.obj CMakeFiles/TP.dir/Interface.cpp.obj CMakeFiles/TP.dir/habitacao.cpp.obj CMakeFiles/TP.dir/Aparelho.cpp.obj CMakeFiles/TP.dir/Aparelhos/Aquecedor.cpp.obj CMakeFiles/TP.dir/Aparelhos/Aspersor.cpp.obj CMakeFiles/TP.dir/Aparelhos/Refrigerador.cpp.obj CMakeFiles/TP.dir/Aparelhos/Lampada.cpp.obj CMakeFiles/TP.dir/Regras.cpp.obj CMakeFiles/TP.dir/Propriedade.cpp.obj CMakeFiles/TP.dir/Processador.cpp.obj CMakeFiles/TP.dir/Sensor.cpp.obj CMakeFiles/TP.dir/Propriedades/Temperatura.cpp.obj CMakeFiles/TP.dir/Propriedades/Fumo.cpp.obj CMakeFiles/TP.dir/Propriedades/Vibracao.cpp.obj CMakeFiles/TP.dir/Propriedades/Humidade.cpp.obj CMakeFiles/TP.dir/Propriedades/Radiacao.cpp.obj CMakeFiles/TP.dir/Propriedades/Luz.cpp.obj CMakeFiles/TP.dir/Propriedades/Som.cpp.obj | C$:/PDCurses-3.9/wincon/pdcurses.a
   FLAGS = -g
   LINK_LIBRARIES = C:/PDCurses-3.9/wincon/pdcurses.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP.dir

@@ -7,7 +7,7 @@ using namespace std;
 #include <sstream>
 
 //falta meter no id
-Aparelho::Aparelho(const string& tipo, int fumo = 0, int humidade = 0, int luminosidade = 0, int ruido = 0, int tempZona = 0, int vibracao = 0,int estaLigado = 0) : tipo(tipo), fumo(fumo), humidade(humidade), luminosidade(luminosidade), ruido(ruido), tempZona(tempZona), vibracao(vibracao), estaLigado(1){
+Aparelho::Aparelho(const string& tipo, int fumo = 0, int humidade = 0, int luminosidade = 0, int ruido = 0, int tempZona = 0, int vibracao = 0,int estaLigado = 0) : tipo(tipo), fumo(fumo), humidade(humidade), luminosidade(luminosidade), ruido(ruido), tempZona(tempZona), vibracao(vibracao), estaLigado(0){
 }
 
 

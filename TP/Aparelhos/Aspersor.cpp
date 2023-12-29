@@ -11,6 +11,9 @@ void Aspersor::estadoAparelho(){
         }
         setVibracao(getVibracao() + 100);
         setRuido(0);
+        for (int i = 0; i < 5; ++i) {
+            setLigado(0);
+        }
     }else{
         setVibracao(getVibracao() - 100);
     }
