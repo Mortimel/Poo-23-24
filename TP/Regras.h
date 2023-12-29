@@ -8,6 +8,8 @@
 #include <string>
 #include "Sensor.h"
 
+using namespace std;
+
 
 #include <string>
 #include <iostream>
@@ -23,17 +25,26 @@ class Regras {
 private:
     int id;
     bool resultado;
+    double valorMin;
+    double valorMax;
+    string operador;
     std::vector<std::string> regra = {"igual_a", "menor_que", "maior_que", "entre", "fora"};
 
 public:
-    Regra(int identificador);
+    Regras(int id);
 
-    bool avaliar(const double valorSensor, const string& operador, const double valorLimite1, const double valorLimite2 = 0.0);
-
-
+    //getters
     int obterId() const;
+    double getValorMin() const;
+    double getValorMax() const;
 
-    const std::vector<std::string>& obterOperadores() const;
+    //setters
+    void setValorMin(double newValorMin) { valorMin = newValorMin;}
+    void setValorMax(double newValorMax) { valorMax = newValorMax;}
+
+
+    bool avaliar(double valorSensor, const string& operador, double valorLimite1, double valorLimite2);
+    const vector<string>& obterOperadores() const;
 };
 
 #endif //TP_REGRAS_H

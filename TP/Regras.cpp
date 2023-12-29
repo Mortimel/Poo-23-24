@@ -5,9 +5,10 @@
 
 #include "Regras.h"
 
-Regra::Regra(int identificador) : id(identificador), resultado(false) {}
+Regras::Regras(int id) : id(id){}
 
-bool Regras::avaliar(const double valorSensor, const std::string& operador, const double valorLimite1, const double valorLimite2) {
+
+bool Regras::avaliar(const double valorSensor, const string& operador, const double valorLimite1, const double valorLimite2){
     if (operador == "igual_a") {
         resultado = (valorSensor == valorLimite1);
     } else if (operador == "menor_que") {
@@ -22,14 +23,20 @@ bool Regras::avaliar(const double valorSensor, const std::string& operador, cons
         std::cerr << "Operador de regra desconhecido: " << operador << std::endl;
         resultado = false;
     }
-
     return resultado;
 }
 
-int Regra::obterId() const {
+int Regras::obterId() const {
     return id;
 }
 
-const vector<string>& Regra::obterOperadores() const {
+const vector<string>& Regras::obterOperadores() const {
     return regra;
+}
+
+double Regras::getValorMin() const{
+    return valorMin;
+}
+double Regras::getValorMax() const{
+    return valorMax;
 }

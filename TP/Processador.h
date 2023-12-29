@@ -5,20 +5,24 @@
 #ifndef TP_PROCESSADOR_H
 #define TP_PROCESSADOR_H
 
+
+
 #include <string>
 #include "Regras.h"
+#include <vector>
 
 
 class Processador{
-public:
-    Processador();
-    ~Processador();
-    void adicionaRegra();
-    void removerRegra();
-
 private:
-    std::string comando;
-    int id;
+    string comando;
+    vector<Regras*> regras;
+
+public:
+    Processador(const string& comando);
+    ~Processador();
+
+    void adicionarRegra(const int id);
+    void executar(const vector<double>& valoresSensores) const;
 };
 
 

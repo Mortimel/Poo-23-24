@@ -46,79 +46,15 @@ int Aparelho::getVibracao() const {
     return vibracao;
 }
 
+
+int Aparelho::getLigado() const {
+    return estaLigado;
+}
+
 /*
 bool Aparelho::isLigado(){
     return estaLigado = 1;
 }
 */
-int Aparelho::getLigado() const {
-    return estaLigado;
-}
 
 
-
-/*
-
-
-bool refrigerador::ligado{
-    if (ligado = true){
-        tempZona = tempZona - 1;
-        ruido = ruido + 20;
-    }
-};
-
-bool lampada::ligado{
-    if (ligado = true){
-        luminosidade = luminosidade + 900;
-    }
-};
-
- /*
-class aquecedor : public Aparelho{
-     //a se ligado
-     // A se desligado
-     //?? em 3 instantes
-public:
-    bool ligado;
-
-private:
-   int tempZona = 0;
-   int ruido = 0;
-};
-
-class aspersor : public Aparelho{
-    // s se ligado
-     // S se desligado
-      //fumo = 0 no segundo instante?????
-
-public:
-    bool ligado;
-
-private:
-    int humidade = 0;
-    int vibracao = 0;
-};
-class refrigerador : public Aparelho{
-    // r se estiver ligado
-     // R se estiver desligado
-     // ?? em 3 instantes
-
-public:
-bool ligado;
-private:
-int tempZona = 0;
-int ruido = 0;
-};
-
- class lampada : public Aparelho{
-    // l se ligado
-     // L se desligado
-     // // enquanto estiver ligado e so 1 vez
-
-public:
-    bool ligado;
-private:
-    int luminosidade = 0;
-};
-
-*/

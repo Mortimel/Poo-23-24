@@ -9,7 +9,6 @@
 #include "Propriedade.h"
 using namespace std;
 
-//TENHO Q IR BUSCAR OS VALORES DAS PROPRIEDADES
 
 class Aparelho{
 public:
