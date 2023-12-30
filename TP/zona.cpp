@@ -2,12 +2,20 @@
 // Created by BrunoOliveira on 10/11/2023.
 //
 
+#include "Propriedades/Fumo.h"
+#include "Propriedades/Humidade.h"
+#include "Propriedades/Luz.h"
+#include "Propriedades/Radiacao.h"
+#include "Propriedades/Som.h"
+#include "Propriedades/Temperatura.h"
+#include "Propriedades/Vibracao.h"
+
 #include "Zona.h"
 #include <iostream>
 
 using namespace std;
 
-Zona::Zona(int id, int linha = 0, int coluna = 0) : id(id), linha(linha), coluna(coluna){}
+Zona::Zona(int id, int linhas, int colunas) : id(id), linhas(linhas), colunas(colunas){}
 
 Zona::~Zona() {
     // Add any necessary cleanup code
@@ -40,6 +48,26 @@ int Zona::getColunas() const {
 int Zona::getId() const {
     return id;
 }
+
+
+vector<Propriedade *> Zona::getVecPropriedade() const
+{
+    return propriedades;
+}
+
+//falta adicionar propriedade trivial
+void Zona::criarPropriedade()
+{
+    propriedades.push_back(new Temperatura("Temperatura", "graus celsius", -273, 100, 20));
+    propriedades.push_back(new Fumo("Fumo", " Obscuracao", 0, 100, 0));
+    propriedades.push_back(new Humidade("Humidade", "%", 0, 100, 0));
+    propriedades.push_back(new Luz("Luz", "Lumens", 0, 10000, 1000));
+    propriedades.push_back(new Radiacao("Radiacao", "Becquerel", 0, 100, 0));
+    propriedades.push_back(new Som("Som", "Decibeis", 0, 100, 0));
+    propriedades.push_back(new Vibracao("Vibracao", "Hertz", 0, 100, 0));
+}
+
+
 
 /*
 void Zona::adicionarZona(const int &id, const int &linha, const int &coluna){

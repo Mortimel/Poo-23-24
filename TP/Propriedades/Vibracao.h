@@ -9,8 +9,8 @@
 
 class Vibracao : public Propriedade{
 public:
-    Vibracao(const string& nome, const string& unidade, double minimo, double maximo) :
-    Propriedade(nome, unidade, minimo , maximo ){}
+    Vibracao(const string& nome, const string& unidade, double minimo, double maximo, double valor) :
+    Propriedade(nome, unidade, minimo , maximo, valor ){}
 
 };
 

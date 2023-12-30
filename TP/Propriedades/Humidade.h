@@ -9,8 +9,8 @@
 
 class Humidade : public Propriedade{
 public:
-    Humidade(const string& nome, const string& unidade, double minimo, double maximo) :
-    Propriedade(nome, unidade, minimo, maximo ){}
+    Humidade(const string& nome, const string& unidade, double minimo, double maximo,double valor) :
+    Propriedade(nome, unidade, minimo, maximo, valor ){}
 
 };
 

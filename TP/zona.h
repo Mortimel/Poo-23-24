@@ -17,6 +17,8 @@
 #include <sstream>
 
 
+
+
 using namespace std;
 
 class Zona {
@@ -32,10 +34,12 @@ public:
     int getColunas() const;
     int getId() const;
 
+    vector<Propriedade *> getVecPropriedade() const;
+
     void adicionarSensor();
     void adicionarAparelho();
     void adicionarProcessador();
-    void adicionarPropriedade();
+    void criarPropriedade();
 
 private:
     int id;

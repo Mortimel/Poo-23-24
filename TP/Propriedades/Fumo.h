@@ -8,8 +8,8 @@
 
 class Fumo : public Propriedade{
 public:
-    Fumo(const string& nome, const string& unidade, double minimo, double maximo) :
-    Propriedade(nome, unidade, minimo , maximo ){}
+    Fumo(const string& nome, const string& unidade, double minimo, double maximo,double valor) :
+    Propriedade(nome, unidade, minimo , maximo, valor ){}
 
 
 };

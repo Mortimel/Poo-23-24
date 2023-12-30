@@ -12,6 +12,8 @@
 
 using namespace std;
 
+class Zona;
+
 class Propriedade {
 private:
     string nome;
@@ -21,11 +23,11 @@ private:
     double valorMaximo;
 
 public:
-    Propriedade(const string& nome, const string& unidade, double minimo, double maximo);
+    Propriedade(const string& nome, const string& unidade, double minimo, double maximo, double valor);
     ~Propriedade();
 
     //getters
-    const string& getNome() const;
+    const string& getNome();
     double getValor() const;
     double getValorMinimo() const;
     double getValorMaximo() const;
@@ -34,7 +36,6 @@ public:
     void setValor(double novoValor);
     bool validarValor(double novoValor) const;
     void mostrarInformacoes() const;
-    virtual string getTipo() const = 0;
 };
 
 /*

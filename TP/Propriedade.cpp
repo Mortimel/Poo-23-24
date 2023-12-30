@@ -6,12 +6,12 @@
 #include "Propriedade.h"
 
 
-Propriedade::Propriedade(const string& nome, const string& unidade, double minimo, double maximo)
+Propriedade::Propriedade(const string& nome, const string& unidade, double minimo, double maximo, double valor)
         : nome(nome), valorMinimo(minimo), valorMaximo(maximo), valor(0.0) {}
 
 Propriedade::~Propriedade() {}
 
-const string& Propriedade::getNome() const {
+const string& Propriedade::getNome(){
     return nome;
 }
 
@@ -26,6 +26,7 @@ double Propriedade::getValorMinimo() const {
 double Propriedade::getValorMaximo() const {
     return valorMaximo;
 }
+
 
 void Propriedade::setValor(double novoValor) {
     if (validarValor(novoValor)) {
@@ -44,12 +45,6 @@ void Propriedade::mostrarInformacoes() const {
          << "\nValor Mínimo: " << valorMinimo << "\nValor Máximo: " << valorMaximo << endl;
 }
 
-string Propriedade::getTipo() const {
-    ostringstream oss;
-    oss << nome;
-
-    return oss.str();
-}
 
 /*
 Propriedade::Propriedade(int temperatura, int ruido, int fumo, int humidade, int vibracao, int luminosidade, int luz) : temperatura(temperatura), ruido(ruido), fumo(fumo), humidade(humidade),

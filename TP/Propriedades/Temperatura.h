@@ -9,8 +9,8 @@
 
 class Temperatura : public Propriedade{
 public:
-    Temperatura(const string& nome, const string& unidade, double minimo, double maximo) :
-            Propriedade(nome, unidade, minimo, maximo){}
+    Temperatura(const string& nome, const string& unidade, double minimo, double maximo, double valor) :
+            Propriedade(nome, unidade, minimo, maximo, valor){}
 
 };
 

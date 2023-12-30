@@ -9,8 +9,8 @@
 
 class Luz : public Propriedade{
 public:
-    Luz(const string& nome, const string& unidade, double minimo, double maximo) :
-            Propriedade(nome, unidade, minimo, maximo ){}
+    Luz(const string& nome, const string& unidade, double minimo, double maximo, double valor) :
+            Propriedade(nome, unidade, minimo, maximo, valor){}
 
 };
 
