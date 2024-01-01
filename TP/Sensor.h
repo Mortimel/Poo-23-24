@@ -9,15 +9,16 @@
 #include <string>
 #include "Propriedade.h"
 
-//nao sei o q isto faz mas resultou
-#pragma once
-
-class Sensor{
+class Sensor {
 public:
-    Sensor();
-    ~Sensor();
+    Sensor(const string& nome, Propriedade* propriedade);
+    void medirPropriedade(double valor);
+    double obterLeituraPropriedade() const;
+    string obterNomePropriedade() const;
+
 private:
-    std::string nome;
+    string nome;
+    Propriedade* propriedade;
 };
 
 
